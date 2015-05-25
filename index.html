@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>10perCP Task - Home Page</title>
+		<meta name="author" content="Vadym Pechenoha">
+		<link rel="stylesheet" href="main.css">
+		<!-- Small "resize_fix" script is changing width of "body" element, when it is too small, for correct displaying -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/resize_fix.js"></script>
+		<!-- I'm using Prefix-free to avoid using CSS-prefixes -moz-, -webkit-, -o-, -ms- etc. -->
+		<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="#" id="logo" title="Fooseshoes">Fooseshoes</a>
+			<div id="right_login_search">
+				<a href="#" id="login_reg_link">LOGIN or REGISTER</a>
+			</div>
+			<form id="search_block" method="post">
+				<input type="text" name="query" title="Click here and enter your query">
+			</form>
+			<nav id="top_nav">
+				<a href="#">Home</a>
+				<a href="#">Products</a>
+				<a href="#">About</a>
+				<a href="#">Pages</a>
+				<a href="#">Blog</a>
+				<a href="#" class="last_item">Contact</a>
+				<a href="#" class="basket" title="My basket"><span>0</span></a>
+				<a href="#" class="favorites" title="My favorites"><span>30</span></a>
+			</nav>
+		</header>
+		<section id="news_top">
+			<div id="news_container">
+				<div class="news_picture"></div>
+				<div class="news_text">
+					<div class="news_price">$145,99</div>
+					<h2>Pink Shoes<br>2013 Collection</h2>
+					<p>
+						Nunc non fermentum nunc. Sed ut ante 
+						eget leo tempor consequat sit amet eu orci. 
+						Donec dignissim dolor eget..
+					</p>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="dark_under_header">
+			<nav>
+				<a href="#" class="active">
+					<span class="stripe"></span>
+					Pink Shoes
+					<span class="small_txt">Now at $145,99</span>
+				</a>
+				<a href="#">
+					<span class="stripe"></span>
+					Anna Field
+					<span class="small_txt">Limited Edition</span>
+				</a>
+				<a href="#">
+					<span class="stripe"></span>
+					Prada
+					<span class="small_txt">Summer is coming</span>
+				</a>
+				<a href="#">
+					<span class="stripe"></span>
+					Casadei
+					<span class="small_txt">All COlors available</span>
+				</a>
+				<a href="#">
+					<span class="stripe"></span>
+					Mellow Yellow
+					<span class="small_txt">Free delivery</span>
+				</a>
+			</nav>
+			<div class="large_links">
+				<a href="#">
+					<span><em>on sale</em></span>
+					<img src="img/under_header_img1.jpg">
+				</a>
+				<a href="#">
+					<span><em>special offers</em></span>
+					<img src="img/under_header_img2.jpg">
+				</a>
+				<a href="#">
+					<span><em>must have</em></span>
+					<img src="img/under_header_img3.jpg">
+				</a>
+			</div>
+		</section>
+		<section class="products">
+			<h2>New arrivals on FooseShoes</h2>
+			<a href="#" class="show_all">Show All</a>
+			<div class="cards">
+				<div class="card">
+					<a href="#">
+						<img src="img/products/1.jpg">
+						<span>
+							<em class="product_price">$145.99</em>
+							<em class="product_name">Even&amp;Odd</em>
+						</span>
+					</a>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+				<div class="card on_sale">
+					<a href="#">
+						<img src="img/products/2.jpg">
+						<span>
+							<em class="product_price">$145.99</em>
+							<em class="product_name">Even&amp;Odd</em>
+						</span>
+					</a>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+				<div class="card">
+					<a href="#">
+						<img src="img/products/3.jpg">
+						<span>
+							<em class="product_price">$145.99</em>
+							<em class="product_name">Buffalo Decollete</em>
+						</span>
+					</a>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<h2>Best sellers of the month</h2>
+			<a href="#" class="show_all">Show All</a>
+			<div class="cards">
+				<div class="card">
+					<a href="#">
+						<img src="img/products/4.jpg">
+						<span>
+							<em class="product_price">$145.99</em>
+							<em class="product_name">Even&amp;Odd</em>
+						</span>
+					</a>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+				<div class="card">
+					<a href="#">
+						<img src="img/products/5.jpg">
+						<span>
+							<em class="product_price">$145.99</em>
+							<em class="product_name">Even&amp;Odd</em>
+						</span>
+					</a>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+				<div class="card out_of_stock">
+					<a href="#">
+						<img src="img/products/6.jpg">
+						<span>
+							<em class="product_price">$145.99</em>
+							<em class="product_name">Buffalo Decollete</em>
+						</span>
+					</a>
+					<ul class="product_menu">
+						<li><a href="#" class="news_look" title="Look at the proposal">Look at the proposal</a></li>
+						<li><a href="#" class="news_fav" title="Add to favorites">Add to favorites</a></li>
+						<li><a href="#" class="news_send" title="Send to your friend">Send to your friend</a></li>
+						<li><a href="#" class="news_buy" title="Buy the product">Buy the product</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="info_blocks">
+			<div class="small_block">
+				<h3>Free Shipping</h3>
+				<p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem</p>
+			</div>
+			<div class="small_block">
+				<h3>Testimonials</h3>
+				<p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p>
+				<p class="author">John Doe</p>
+			</div>
+			<div class="large_block">
+				<h3>Blog news</h3>
+				<div>
+					<div class="news_date">apr <span>01</span></div>
+					<div class="news_title">Nice &amp; clean. The best for you blog!</div>
+					<div class="news_description">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel </div>
+				</div>
+				<div>
+					<div class="news_date">apr <span>01</span></div>
+					<div class="news_title">What an Ecommerce theme!</div>
+					<div class="news_description">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel </div>
+				</div>
+			</div>
+		</section>
+		<section id="pre_footer">
+			<div>
+				<div class="widget">
+					<h4>Text widget</h4>
+					<p>
+						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+					</p>
+				</div>
+				<div class="widget twitter">
+					<h4>Twitter widget</h4>
+					<p><a href="#">@ericafustero</a> Why thank you. Your work looks awesome by the way! <a href="#">@treemelody</a></p>
+					<p class="tw_when">19 days ago</p>
+					<p><a href="#">@roymarvelous</a> You can seek a refund through TF if it is not as advertised - but it is :)</p>
+					<p class="tw_when">21 days ago</p>
+				</div>
+				<div class="widget flickr">
+					<h4>Flickr widget</h4>
+					<p>
+						<a href="#"><img src="img/flickr/1.jpg"></a>
+						<a href="#"><img src="img/flickr/2.jpg"></a>
+						<a href="#"><img src="img/flickr/3.jpg"></a>
+						<a href="#"><img src="img/flickr/4.jpg"></a>
+						<a href="#"><img src="img/flickr/5.jpg"></a>
+						<a href="#"><img src="img/flickr/6.jpg"></a>
+					</p>
+				</div>
+				<form method="post" action ="#" id="subscribe">
+					<input name="email" placeholder="Enter email for newsletter"><input type="submit">
+				</form>
+				<ul class="social_widget">
+					<li><a href="#" class="fb">Facebook</a></li>
+					<li><a href="#" class="tw">Twitter</a></li>
+					<li><a href="#" class="gp">Google Plus</a></li>
+					<li><a href="#" class="in">Linkedin</a></li>
+					<li><a href="#" class="etc">Etc.</a></li>
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<div>
+				<div class="copy_txt">Copyright &copy; Fooseshoes 2013.<br>Designed by EnzoLiVolti.</div>
+				<nav>
+					<a href="#">Home</a>
+					<a href="#">Support</a>
+					<a href="#">Terms and Conditions</a>
+					<a href="#">Faqs</a>
+					<a href="#">Contact us</a>
+				</nav>
+			</div>
+		</footer>
+	</body>
+</html>
