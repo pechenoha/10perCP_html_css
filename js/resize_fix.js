@@ -1,5 +1,5 @@
 /* 
- * author: Vadym Pechenoha
+ * Author: Vadym Pechenoha
  * We are calling check of width at 2 points:
  * 1. when page is loading
  * 2. when user resizes the window
@@ -20,5 +20,4 @@ function checkWindowWidth () {
 	} else {
 		$("body").css("width", width);
 	}
-	console.log(width);
 }
